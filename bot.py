@@ -52,7 +52,7 @@ async def executar_barramento_concorrente(termo: str) -> Optional[Dict[str, Any]
     matriz_provedores: List[Dict[str, str]] = [
         {
             "nome": "Core-Alfa Premium (CPF/CNPJ)",
-            "url_base": "https://exemplo-paga1.com{termo}"
+            "url_base": "https://brasilapi.com.br/docs#tag/BANKS"
         },
         {
             "nome": "Core-Beta Contingência (Nome/Telefone)",
