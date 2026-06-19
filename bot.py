@@ -11,7 +11,7 @@ from telebot.async_telebot import AsyncTeleBot
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 TOKEN: Optional[str] = os.environ.get('TELEGRAM_TOKEN')
-if not TOKEN:
+if not TOKEN:8654296285:AAGP8-xA1g8wrg64bCrCjQGdvpnZWuIqegw
     raise RuntimeError("CRITICAL CORE ERROR: 'TELEGRAM_TOKEN' não injetado nas variáveis de ambiente.")
 
 # Instanciação do bot usando o Core Assíncrono (Ideal para alta concorrência de usuários)
